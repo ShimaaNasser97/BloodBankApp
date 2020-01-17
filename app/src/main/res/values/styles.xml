@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="et_style">
+        <item name="android:layout_marginBottom">@dimen/dim_4</item>
+        <item name="android:layout_marginTop">@dimen/dim_4</item>
+        <item name="android:layout_marginStart">@dimen/dim_8</item>
+        <item name="android:layout_marginEnd">@dimen/dim_8</item>
+        <item name="android:background">@drawable/shape_et</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/txt_14</item>
+        <item name="android:padding">@dimen/dim_4</item>
+    </style>
+
+    <style name="bt_style">bt_style>
+
+        <item name="android:layout_marginBottom">@dimen/dim_4</item>
+        <item name="android:layout_marginTop">@dimen/dim_4</item>
+        <item name="android:layout_marginStart">@dimen/dim_8</item>
+        <item name="android:layout_marginEnd">@dimen/dim_8</item>
+        <item name="android:background">@color/greenBTcolor</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="bt_style_blue">bt_style>
+
+        <item name="android:layout_marginBottom">@dimen/dim_4</item>
+        <item name="android:layout_marginTop">@dimen/dim_4</item>
+        <item name="android:layout_marginStart">@dimen/dim_8</item>
+        <item name="android:layout_marginEnd">@dimen/dim_8</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+
+    <style name="iv_style">iv_style>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:src">@drawable/ic_logo</item>
+        <item name="android:padding">@dimen/dim_16</item>
+    </style>
+
+    <style name="tv_style">tv_style>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+
+    <dimen name="txt_14">14sp</dimen>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

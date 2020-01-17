@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/splash_cycle_activity_fl_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_pg"
+
+   >
+    <ImageView
+        android:layout_width="@dimen/dim_logo"
+        android:layout_height="@dimen/dim_logo"
+        android:background="@drawable/ic_logo"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="جميع الحقوق محفوظه ل شركة ابداع للبرمجيات c 20118"/>
+
+</RelativeLayout>

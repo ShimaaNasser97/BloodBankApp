@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_pg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_login_ET_phone"
+        style="@style/iv_style" />
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/fragment_login_ET_phone"
+        style="@style/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        android:hint="@string/phone"/>
+
+    <EditText
+        android:id="@+id/fragment_login_ET_password"
+        style="@style/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        android:layout_below="@id/fragment_login_ET_phone"
+        android:hint="@string/password"
+         />
+
+    <CheckBox
+        android:id="@+id/fragment_login_CBX_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_login_ET_password"
+        android:layout_marginStart="@dimen/dim_8"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:text="@string/remember_me"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/fragment_login_TV_forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_login_ET_password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/dim_8"
+        android:gravity="center"
+        android:padding="@dimen/dim_8"
+        android:text="@string/forget_password"
+        android:textColor="#000" />
+
+
+    <Button
+        android:id="@+id/fragment_login_BT_login"
+        style="@style/bt_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_login_CBX_remember"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/fragment_login_BT_CreateNewAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_login_BT_login"
+        android:layout_marginStart="@dimen/dim_8"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_marginBottom="@dimen/dim_4"
+        android:background="@color/blColor"
+        android:text="@string/creat_new_account" />
+
+</RelativeLayout>

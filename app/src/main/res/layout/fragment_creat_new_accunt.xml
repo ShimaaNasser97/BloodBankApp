@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_pg"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/toolbar"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/dim_8"
+            android:background="@drawable/shape_et"
+            android:gravity="center"
+            android:text="@string/create_new_account"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/fragment_CreatNewAccount_ET_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/fragment_CreatNewAccount_ET_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/fragment_CreatNewAccount_ET_barthDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/date_of_barth" />
+
+    <Spinner
+        android:id="@+id/fragment_CreatNewAccount_sp_bloodType"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/blood_type" />
+
+    <EditText
+        android:id="@+id/fragment_creatnewAccount_et_finaldate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/final_date" />
+
+    <Spinner
+        android:id="@+id/fragment_creatnewaccount_sp_gavernment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/gavernment" />
+
+    <Spinner
+        android:id="@+id/fragment_CreatNewAccount_sp_city"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/city" />
+
+    <EditText
+        android:id="@+id/fragment_CreatNewAccount_ET_pone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/phone" />
+
+    <EditText
+        android:id="@+id/fragment_CreatNewAccount_ET_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/password" />
+
+    <EditText
+        android:id="@+id/fragment_CreatNewAccount_ET_verefiying"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_et_h"
+        style="@style/et_style"
+        android:hint="@string/verefiy_password"
+        />
+
+    <Button
+        android:id="@+id/fragment_CreatNewAccount_BT_signon"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dim_8"
+        android:layout_marginTop="@dimen/dim_8"
+        android:layout_marginEnd="@dimen/dim_8"
+        android:layout_marginBottom="@dimen/dim_8"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/signon"
+        android:textColor="@color/text_white"
+        />
+
+
+</LinearLayout>

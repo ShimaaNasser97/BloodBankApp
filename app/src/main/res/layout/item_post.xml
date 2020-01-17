@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dim_8"
+    android:layout_marginTop="@dimen/dim_8"
+    android:layout_marginEnd="@dimen/dim_8"
+    android:padding="@dimen/dim_8">
+
+    <LinearLayout
+        android:id="@+id/post_item_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/post_item_tv_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim_8"
+            android:layout_weight="1"
+            android:text="dzvvcxbvfzbxfbx" />
+
+        <CheckBox
+            android:id="@+id/post_item_cbx_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/non_favorite"
+            android:button="@drawable/checked_favorit"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/post_item_iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/post_item_linear"
+        android:adjustViewBounds="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="@dimen/dim_8"
+    android:layout_marginEnd="@dimen/dim_8"
+    android:layout_marginTop="@dimen/dim_8"
+    android:layout_marginBottom="@dimen/dim_8">
+
+    <Spinner
+        android:id="@+id/fragment_donation_sp_blood_type"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_sp"
+        android:layout_marginStart="@dimen/dim_8"
+        />
+
+    <Spinner
+        android:id="@+id/fragment_donation_sp_city"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_sp"
+        android:layout_marginStart="@dimen/dim_8"/>
+
+    <SearchView
+        android:id="@+id/fragment_donation_sv_filtr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_sv"/>
+
+</LinearLayout>
+<android.support.v7.widget.RecyclerView
+android:id="@+id/fragment_donation_rv_donations"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginStart="@dimen/dim_8"
+android:layout_marginEnd="@dimen/dim_8"
+android:layout_marginTop="@dimen/dim_8"
+android:layout_marginBottom="@dimen/dim_8"/>
+    </LinearLayout>

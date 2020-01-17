@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_profil"
+            android:title="My Profil" />
+        <item
+            android:id="@+id/setting_notification"
+            android:title="Setting Notification" />
+        <item
+            android:id="@+id/favorit"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/main"
+            android:title="Main" />
+        <item
+            android:id="@+id/user_regulation"
+            android:title="User Regulation" />
+        <item
+            android:id="@+id/connect_us"
+            android:title="Connect Us" />
+        <item
+            android:id="@+id/about_app"
+            android:title="About App" />
+
+        <item
+            android:id="@+id/registring_exiting"
+            android:title="Registring Exiting" />
+
+
+    </group>
+
+
+</menu>

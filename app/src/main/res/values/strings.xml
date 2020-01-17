@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blood Bank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skap">skap</string>
+    <string name="remember_me">remember me</string>
+    <string name="forget_password">forget password</string>
+    <string name="login">login</string>
+    <string name="creat_new_account">creat new account</string>
+    <string name="signon">signon</string>
+
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="phone">Phone</string>
+
+    <string name="create_new_account">create new account</string>
+    <string name="date_of_barth">date of barth</string>
+    <string name="blood_type">blood type</string>
+    <string name="final_date">final date</string>
+    <string name="gavernment">gavernment</string>
+    <string name="city">city</string>
+    <string name="password">password</string>
+    <string name="verefiy_password">verefiy password</string>
+    <string name="title_activity_home_cycle_acvtivity">HomeCycleAcvtivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_cycle">HomeCycleActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="age">age</string>
+    <string name="numbers">numbers</string>
+    <string name="hospitalName">hospitalName</string>
+    <string name="hospitaladress">hospital adress</string>
+    <string name="notes">notes</string>
+    <string name="sendOrder">send order</string>
+    <string name="choose_blood_type">choose blood type</string>
+    <string name="choose_gavernment">choose gavernment</string>
+    <string name="choose_city">choose city</string>
+    <string name="choose_date">choose date</string>
+    <string name="masseg_titel">masseg titel</string>
+    <string name="massege_content">massege content</string>
+    <string name="send">send</string>
+    <string name="pin_code">pin code</string>
+</resources>
